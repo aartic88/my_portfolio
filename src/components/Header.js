@@ -1,9 +1,9 @@
 import React from "react";
-//import "./Header.css";
+import "../styles/header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <nav>
         <ul>
           <li>

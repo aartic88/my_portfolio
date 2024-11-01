@@ -1,0 +1,58 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Set a max width for the carousel */
+    margin: auto;
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+    width: 100%; /* Ensure carousel takes full width */
+  }
+  
+  .carousel-item {
+    min-width: 100%; /* Each item takes full width */
+    box-sizing: border-box; /* Include padding/border in width */
+    display: flex; /* Flex for center caption */
+    flex-direction: column; /* Stack image and caption vertically */
+    align-items: center; /* Center items */
+    justify-content: center; /* Center items */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure the buttons are above other elements */
+  }
+  
+  .prev {
+    left: 10px; /* Position for previous button */
+  }
+  
+  .next {
+    right: 10px; /* Position for next button */
+  }
+  

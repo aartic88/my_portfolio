@@ -1,0 +1,26 @@
+#header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--padding);
+  }
+  
+  #header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  #header nav ul{
+    display: flex;
+    list-style-type: none;
+  }
+
+  #header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  #header nav a:hover {
+    color: #f1c40f;
+  }

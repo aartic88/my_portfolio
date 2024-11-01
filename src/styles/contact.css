@@ -1,0 +1,36 @@
+.contact {
+    background-color: white;
+    padding: 2rem 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    margin-bottom: 1rem;
+  }
+
+  .contact-list {
+    display: flex;            
+    justify-content: center;   
+    align-items: center;       
+    gap: 1rem;                 
+    flex-wrap: wrap;          
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .contact-item:hover {
+    color: #2980b9;
+  }
+  .contact-item span {
+    font-size: 1rem;
+  }
+ 

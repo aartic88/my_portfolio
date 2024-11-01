@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: var(--padding);
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #f1c40f;
+  }
