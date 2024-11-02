@@ -4,6 +4,10 @@ import Academy_home from "../assets/Academy_home.png"; // Ensure the correct pat
 import Academy_content from "../assets/Academy_content.png";
 import Academy_contact from "../assets/Academy_contact.png";
 import Academy_content_table from "../assets/Academy_content_table.png";
+import Academy_mdx from "../assets/Academy_mdx.png";
+import Academy_pdf from "../assets/Academy_pdf.png";
+import Academy_problems from "../assets/Academy_problems.png";
+
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -23,6 +27,18 @@ const Gallery = () => {
     {
       id: 4,
       img: Academy_contact,
+    },
+    {
+      id: 5,
+      img: Academy_mdx,
+    },
+    {
+      id: 6,
+      img: Academy_pdf,
+    },
+    {
+      id: 7,
+      img: Academy_problems,
     },
   ];
 
